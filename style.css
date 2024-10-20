@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url('https://images.app.goo.gl/m77EZkR8Ya8MvbpP6') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #0e69f1;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(23, 183, 223);
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background: #c7e90a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
